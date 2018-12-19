@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <div class="text-center">
+        <h3>Alissa's Fall 2015 Schedule</h3>
+
+        <div class="jumbotron text-center dragon-drop-area">
+            <dragon-drop v-bind:courses={{ courseList }}></dragon-drop>
+        </div>
+    </div>
+
+{% endblock %}

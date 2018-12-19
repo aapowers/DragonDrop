@@ -1,0 +1,36 @@
+{
+  "name": "VueJSProject",
+  "version": "0.1.0",
+  "description": "Test for Vue.JS",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "watch-dev": "npm install && webpack --config webpack.dev.config.js --display-error-details --colors --watch --progress",
+    "build-dev": "npm install && webpack --config webpack.dev.config.js --display-error-details --colors --progress",
+    "build-prod": "npm install && webpack --config webpack.prod.config.js  --progress"
+  },
+  "repository": {
+    "type": "local"
+  },
+  "contributors": [
+    "Alissa Powers <aapowers@uci.edu"
+  ],
+  "license": "BSD-2-Clause",
+  "devDependencies": {},
+  "dependencies": {
+    "@symfony/webpack-encore": "^0.22.2",
+    "bootstrap": "^4.1.3",
+    "datatables.net-buttons": "^1.5.4",
+    "datatables.net-buttons-bs4": "^1.5.4",
+    "node-sass": "^4.11.0",
+    "popper": "^1.0.1",
+    "popper.js": "^1.14.6",
+    "sass-loader": "^7.1.0",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.0.0",
+    "vue-template-compiler": "^2.5.17",
+    "vuedraggable": "^2.17.0"
+  }
+}
